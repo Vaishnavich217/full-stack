@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- label= caption for item -->
+    <!-- placeholder = in input field and disapper once the user text typing -->
+    <!-- id in input is same as for in label -->
+    <form action="/server">
+        <div>
+            <label for="name">Enter your Username:</label>
+            <input type="text" id="name" placeholder="Enter Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <br>
+        <div>
+            <label for="number">Number:</label>
+            <input type="number" id="number" placeholder="Number" required>
+        </div>
+        <br>
+
+        <!-- checkbox -->
+        <div>
+            <input type="checkbox" id="age" name="age">
+             <label for="age">I am 18+</label>
+        </div>
+        <br>
+
+        <!-- Radio button = only 1 option select(name =same for all cases)-->
+        <div>
+            Choose Fruits:
+           <input type="radio" name="fruit" id="apple">
+           <label for="apple">Apple</label>
+           <input type="radio" name="fruit" id="banana">
+           <label for="banana">Banana</label>
+           <input type="radio" name="fruit" id="orange">
+           <label for="orange">Orange</label>
+        </div>
+        <br>
+
+        <!-- input range -->
+        <div>
+            <label for="vol">Select your Volume level:</label>
+            <input type="range" id="vol" min="0" max="100" step="10" value="30">
+        </div>
+        <br>
+         
+        <!-- textarea -->
+        <div>
+            <label for="feedack">Please give your valuable feedback:</label>
+            <textarea name="feedback" id="feedack" placeholder="enter your feedback"></textarea>
+        </div>
+        <br>
+
+        <!-- dropdown list -->
+        <div>
+            Choose Language:
+            <select name="language" id="language">
+                <option value="hindi">Hindi</option>
+                <option value="english">English</option>
+                <option selected>Select Language</option>
+                <option value="german">German</option>
+                <option value="france">France</option>
+            </select>
+        </div>
+        <!-- using button -->
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Hello</button>
+        <br>
+        <!-- using input -->
+        <input type="button" value="Click Me">
+        <hr>
+    </form>
+
+    <!-- for search in google and you tube -->
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q">
+        <button>Submit</button>
+    </form>
+    <hr>
+ 
+    
+</body>
+</html>
