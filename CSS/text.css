@@ -1,0 +1,40 @@
+/* font-weight, text decoration, text-align,line height, letter spacing, font-family */
+
+h1{
+    text-align: center;
+    border: solid;
+    width: 50%;
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: red line-through wavy;
+}
+p{
+    text-align: justify;
+    font-weight: 300;
+    line-height: 2.5;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2{
+    font-weight: 700;
+    text-decoration: underline double;
+    text-decoration-color: blue ; 
+}
+a{
+    /* remove blue line */
+    text-decoration: none;
+}
+
+/*Font-size units in CSS
+    Absolute(fixed)-px,pt,pc,cm,mm,in
+    Relative-%, em,rem, ch, vh, vw
+
+    Pixels(px)-96px=1inch(not used for responsive web)
+*/
