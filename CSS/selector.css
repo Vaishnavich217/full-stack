@@ -58,3 +58,47 @@ input[type]{
 /* div[id="myid"] p{
     color: green;
 } */
+
+/* Pseudo class */
+/* Hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+/* active */
+button:active{
+    background-color: pink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: red;
+}
+/* checked */
+input[type="radio"]:checked+label{
+    color: red;
+}
+/* nth-of-type */
+.post:nth-of-type(2){
+    background-color: blanchedalmond;
+}
+/* pseduo element */
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: purple;
+}
+p::selection{
+    background-color: rgb(177, 176, 64);
+}
+/* Cascading */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: aqua;
+} 
